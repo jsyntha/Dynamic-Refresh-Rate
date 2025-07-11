@@ -1,0 +1,2 @@
+StardewModdingAPI.exe
+Stardew Valley.exe
