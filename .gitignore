@@ -50,7 +50,7 @@ Makefile.*
 *.a
 *.o
 
-# CMake (if you ever switch from qmake to CMake + Qt)
+# CMake
 CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
