@@ -1,7 +1,22 @@
+# -------------------------
+# Visual Studio
+# -------------------------
 .vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.VC.db
+*.VC.opendb
 *.user
 *.suo
+
+# -------------------------
+# Build Artifacts
+# -------------------------
 x64/
+Debug/
+Release/
 *.exe
 *.ilk
 *.pdb
@@ -10,6 +25,34 @@ x64/
 *.log
 *.tlog
 *.lastbuildstate
-*.vcxproj.user
-*.VC.db
-*.VC.opendb
+
+# -------------------------
+# Qt Creator
+# -------------------------
+*.pro.user
+*.pro.user.*
+.qtc_clangd/
+
+# Qt generated files (produced at build time, not source)
+moc_*.cpp
+*.moc
+ui_*.h
+qrc_*.cpp
+*.qm
+
+# Qt build directories (qmake / shadow builds)
+build/
+build-*/
+
+# Qt Makefile outputs
+Makefile
+Makefile.*
+*.a
+*.o
+
+# CMake (if you ever switch from qmake to CMake + Qt)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+.cmake/
+CMakeUserPresets.json
